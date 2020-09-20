@@ -2,10 +2,31 @@
 {% extends 'base.html' %} 
 {% load static %} 
 {% block content %}
-<div class="container-fluid">
+<div class="container-fluid" id="main-sejaparceiro">
 	{% include 'partials/navbar.html' %}
 
-	<h1>Seja um Parceiro</h1>
+	<main>
+		<div class="main-title">
+			<h2>Seja um Parceiro</h2>
+		</div>
+
+		<div class="main-text">
+			<p>O ParkingBr nasceu para facilitar.</p>
+			<p>
+				Somos uma solução de mobilidade urbana que conecta pessoas e serviços.
+			</p>
+			<p>
+				Aos nossos parceiros, oferecemos a oportunidade de impulsionar seus
+				negócios.
+			</p>
+			<p>
+				Aos nossos clientes, a facilidade de reservar suas vagas e ganhar tempo.
+			</p>
+		</div>
+		<div class="link-cadastro">
+			<a href="{% url 'cadastrogestor' %}">Cadastre-se</a>
+		</div>
+	</main>
 </div>
 
 {% endblock %}
