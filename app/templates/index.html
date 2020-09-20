@@ -1,6 +1,7 @@
 <!-- prettier-ignore  -->
 {% extends 'base.html' %}
-{% load static %} {% block content %}
+{% load static %} 
+{% block content %}
 
 <div class="container-fluid" id="landing">
 	{% include 'partials/navbar.html' %}
@@ -52,7 +53,7 @@
 					</div>
 					<div class="card-footer" id="id_campo_inferior">
 						<div class="d-flex justify-content-center links">
-							Ainda não tem conta?<a href="{% url 'cadastro' %}">
+							Ainda não tem conta?<a href="{% url 'cadastrocliente' %}">
 								Cadastre-se
 							</a>
 						</div>
