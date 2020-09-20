@@ -17,11 +17,20 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
+/* #quemsomos {
+	background-image: url("img/bg/quem_somos.jpg");
+	background-position: inherit;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	color: black;
+} */
+
 #main-landing {
 	margin-top: 3.33rem;
 }
 
-/* HEADER (NAVBAR) */
+/* HEADER (NAVBAR) - LANDING */
 
 div#navbar {
 	background-color: #000000;
@@ -152,4 +161,64 @@ input:focus {
 .modal a.close-modal {
 	top: 10.5px !important;
 	right: 9.5px !important;
+}
+
+/* MAIN - QUEM SOMOS */
+
+#main-quemsomos {
+	color: rgb(255, 255, 255);
+	background-image: url("img/bg/quem_somos.jpg");
+	background-position: inherit;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* height: 100%; */
+	height: 39.05rem;
+}
+
+.main-title {
+	margin-top: 9.7rem;
+	margin-left: 14rem;
+}
+
+.main-text {
+	margin-top: 3rem;
+	margin-left: 14rem;
+}
+
+.link-cadastro {
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.link-cadastro a {
+	background-color: #000000;
+	color: #ffffff;
+	/* background-color: #d47e38;
+	color: #000000; */
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 1s;
+	border-radius: 0.8rem;
+	padding: 1rem;
+}
+
+div#main-quemsomos .link-cadastro a:hover {
+	background-color: #d47e38;
+	color: #000000;
+}
+
+/* MAIN - SEJA UM PARCEIRO */
+
+#main-sejaparceiro {
+	color: rgb(255, 255, 255);
+	background-image: url("img/bg/seja_parceiro.jpg");
+	background-position: inherit;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 39.05rem;
+}
+
+div#main-sejaparceiro .link-cadastro a:hover {
+	background-color: #606060;
+	color: #000000;
 }
