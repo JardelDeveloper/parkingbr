@@ -13,5 +13,9 @@ def quemsomos(request):
     return render(request, 'quemsomos.html')
 
 
-def cadastro(request):
-    return render(request, 'cadastro.html')
+def cadastrocliente(request):
+    return render(request, 'cadastrocliente.html')
+
+
+def cadastrogestor(request):
+    return render(request, 'cadastrogestor.html')
